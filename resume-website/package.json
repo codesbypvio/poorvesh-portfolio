@@ -1,0 +1,21 @@
+{
+  "name": "resume-website",
+  "version": "1.0.0",
+  "description": "A personal resume website to showcase my skills and experience.",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "resume",
+    "portfolio",
+    "website"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.0.0"
+  }
+}
