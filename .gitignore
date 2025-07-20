@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+*/node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -8,6 +9,7 @@ yarn-error.log*
 dist/
 build/
 .output/
+_site/
 
 # Environment variables
 .env
@@ -35,3 +37,6 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
+
+# Package lock files for subdirectories (keep root package-lock.json)
+resume-website/package-lock.json
