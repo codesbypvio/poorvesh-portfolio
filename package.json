@@ -1,4 +1,26 @@
 {
+  "name": "poorvesh-portfolio",
+  "version": "1.0.0",
+  "description": "Poorvesh's professional portfolio website showcasing civil engineering and web development skills",
+  "scripts": {
+    "start": "./serve.sh",
+    "serve": "./serve.sh",
+    "dev": "cd resume-website && python3 -m http.server 8000",
+    "deploy": "echo 'Deployment is handled automatically by GitHub Actions. Check the Actions tab or see DEPLOYMENT.md for manual options.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesbypvio/poorvesh-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "resume",
+    "civil-engineering",
+    "web-development",
+    "github-pages"
+  ],
+  "author": "Poorvesh Manish Umak <poorvesh.umak.ce@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "framer-motion": "^12.23.6",
     "react": "^19.1.0",
